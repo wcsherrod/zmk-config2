@@ -4,53 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include <beh
-  /*
-  * Copyright (c) 2020 The ZMK Contributors
-  *
-  * SPDX-License-Identifier: MIT
-  */
-
-  #include <behaviors.dtsi>
-  #include <dt-bindings/zmk/keys.h>
-  #include <dt-bindings/zmk/bt.h>
-  #include <dt-bindings/zmk/ext_power.h>
-
-  / {
-    keymap {
-      compatible = "zmk,keymap";
-  layer0 {
-          bindings = <
-          &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp BACKSPACE &mt LEFT_CONTROL ESCAPE &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON RCTL_T(KC_QUOT) &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp LEFT_BRACKET &kp CAPSLOCK &mo 5 &kp RIGHT_BRACKET &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &mo 6 &kp LEFT_GUI &mt LEFT_CONTROL BACKSPACE &lt 4 SPACE &lt 3 ENTER &mo 4 LSFT(KC_BSPC) &lt 4 DELETE &kp RIGHT_GUI &kp K_APPLICATION
-          >;
-        };layer1 {
-          bindings = <
-          &kp TAB &kp SINGLE_QUOTE &kp COMMA &kp DOT &kp P &kp Y &kp F &kp G &kp C &kp R &kp L &kp BACKSPACE &mt LEFT_CONTROL ESCAPE &kp A &kp O &kp E &kp U &kp I &kp D &kp H &kp T &kp N &kp S RCTL_T(KC_MINS) &kp LEFT_SHIFT &kp SEMICOLON &kp Q &kp J &kp K &kp X &kp LEFT_BRACKET &kp CAPSLOCK &mo 5 &kp RIGHT_BRACKET &kp B &kp M &kp W &kp V &kp Z &kp RIGHT_SHIFT &mo 6 &kp LEFT_GUI &mt LEFT_ALT ENTER &kp SPACE &mo 3 &mo 4 &kp SPACE &kp RIGHT_ALT &kp RIGHT_GUI &kp K_APPLICATION
-          >;
-        };layer2 {
-          bindings = <
-          &kp TAB &kp Q &kp W &kp F &kp P &kp B &kp J &kp L &kp U &kp Y &kp SEMICOLON &kp BACKSPACE &mt LEFT_CONTROL ESCAPE &kp A &kp R &kp S &kp T &kp G &kp M &kp N &kp E &kp I &kp O RCTL_T(KC_QUOT) &kp LEFT_SHIFT &kp Z &kp X &kp C &kp D &kp V &kp LEFT_BRACKET &kp CAPSLOCK &mo 5 &kp RIGHT_BRACKET &kp K &kp H &kp COMMA &kp DOT &kp SLASH &kp RIGHT_SHIFT &mo 6 &kp LEFT_GUI &mt LEFT_ALT ENTER &kp SPACE &mo 3 &mo 4 &kp SPACE &kp RIGHT_ALT &kp RIGHT_GUI &kp K_APPLICATION
-          >;
-        };layer3 {
-          bindings = <
-          &trans &trans &trans &trans &trans &trans &kp PAGE_UP &kp HOME &kp UP &kp END &kp C_VOLUME_UP &kp DELETE &trans &kp LEFT_GUI &kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_SHIFT &trans &kp PAGE_DOWN &kp LEFT &kp DOWN &kp RIGHT &kp C_VOLUME_DOWN &kp INSERT &trans &trans &trans &trans &trans &trans &trans &kp SCROLLLOCK &trans &trans &kp PAUSE_BREAK &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &kp C_MUTE &kp PRINTSCREEN &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-          >;
-        };layer4 {
-          bindings = <
-          &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp EQUAL KC_TILD KC_EXLM KC_AT KC_HASH KC_DLR KC_PERC KC_CIRC KC_AMPR KC_ASTR KC_LPRN KC_RPRN KC_PLUS KC_PIPE &kp BACKSLASH KC_COLN &kp SEMICOLON &kp MINUS &kp LEFT_BRACKET KC_LCBR &trans &trans KC_RCBR &kp RIGHT_BRACKET KC_UNDS &kp COMMA &kp DOT &kp SLASH KC_QUES &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-          >;
-        };layer5 {
-          bindings = <
-          &trans &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans &trans &trans &trans &trans &trans &trans &kp F5 &kp F6 &kp F7 &kp F8 &trans &trans &kp RIGHT_SHIFT &kp RIGHT_CONTROL &kp LEFT_ALT &kp RIGHT_GUI &trans &trans &kp F1 &kp F2 &kp F3 &kp F4 &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-          >;
-        };layer6 {
-          bindings = <
-          &trans &trans &trans DF(0) &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans DF(1) &trans &trans RGB_TOG RGB_SAI RGB_HUI RGB_VAI RGB_MOD &trans &trans &trans &trans DF(2) &trans &trans &trans &trans &trans &trans &trans RGB_SAD RGB_HUD RGB_VAD RGB_RMOD &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-          >;
-        };
-    };
-  };
-  aviors.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
 / {
